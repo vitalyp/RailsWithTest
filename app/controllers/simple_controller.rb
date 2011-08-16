@@ -5,13 +5,7 @@ class SimpleController < ApplicationController
 
   def bye
     render :text => "bye!"
-  end
-
-  def bad_method
-    rder :text => "bye!"
-    sadasd asdas das asd a;d
-    c 32455896^&%**
-  end
+  end  
 
   def new_post
     @user = User.find :first

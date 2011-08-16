@@ -1,0 +1,2 @@
+module BadControllerHelper
+end
