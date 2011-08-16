@@ -3,4 +3,4 @@
 
 
 puts "Hello World"
-puts "Hello World"
+sputs "Hello World"
