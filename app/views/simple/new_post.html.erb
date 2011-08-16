@@ -1,0 +1,7 @@
+Hello, <%=@user.name%> ! Create your post!
+<br/>
+<% form_for @post, :url => create_post_path do |p|  %>
+  <%= p.text_field :content %>
+  <br/>
+  <%= submit_tag "Create!" %>
+<% end %>

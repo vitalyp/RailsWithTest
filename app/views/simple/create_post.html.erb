@@ -1,0 +1,11 @@
+Thanks, <%=@user.name%>!<br/>
+Your posts:
+<% i = 0 %>
+<% for post in @posts %>
+  <% i = i+1 %>
+  Post #<%=i%>: <%= post.content %> <br/>
+<% end %>
+
+
+
+  <%= link_to "!!POST MORE!!", :controller => :simple, :action => :new_post %>
