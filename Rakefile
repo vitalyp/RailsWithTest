@@ -5,8 +5,8 @@ require 'rubygems'
 # Install:
 #  sudo gem install ci_reporter
 
-#gem 'ci_reporter'
-#require 'ci/reporter/rake/test_unit' # use this if you're using Test::Unit
+gem 'ci_reporter'
+require 'ci/reporter/rake/test_unit' # use this if you're using Test::Unit
 
 
 require(File.join(File.dirname(__FILE__), 'config', 'boot'))

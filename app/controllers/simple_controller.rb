@@ -16,7 +16,7 @@ class SimpleController < ApplicationController
     post = Post.new(params[:post])
     @user = User.find :first
     @user.posts << post
-    post.sacve!
+    post.save!
     @posts = @user.posts
   end
 

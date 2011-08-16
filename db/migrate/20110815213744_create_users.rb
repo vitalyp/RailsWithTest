@@ -5,6 +5,7 @@ class CreateUsers < ActiveRecord::Migration
 
       t.timestamp
     end
+    User.create(:name => "Steve Ross Kellock")
   end
 
   def self.down
