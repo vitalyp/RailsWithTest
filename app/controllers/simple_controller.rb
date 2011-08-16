@@ -7,6 +7,12 @@ class SimpleController < ApplicationController
     render :text => "bye!"
   end
 
+  def bad_method
+    rder :text => "bye!"
+    sadasd asdas das asd a;d
+    c 32455896^&%**
+  end
+
   def new_post
     @user = User.find :first
     @post = Post.new
